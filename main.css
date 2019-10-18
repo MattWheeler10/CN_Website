@@ -1,0 +1,106 @@
+body {
+    background-image: url("bg1.jpg");
+    background-size:cover;
+}
+.title {
+    margin:auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    font-family:-'sans-serif';
+    height: 100px;
+    background-color:palevioletred;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    
+    
+  }
+  
+
+  @-webkit-keyframes example {
+    0%   {background-color: palevioletred;}
+    10%  {background-color: lightseagreen;}
+    20%  {background-color: blue;}
+    30%  {background-color: purple;}
+    40%  {background-color: yellowgreen;}
+    50%  {background-color: yellow;}
+    60%  {background-color: orange;}
+    70%  {background-color: orangered;}
+    80%  {background-color: red;}
+    90%  {background-color: blueviolet;}
+    100%  {background-color: palevioletred;}
+  }
+  
+
+  @keyframes example {
+    0%   {background-color: palevioletred;}
+    10%  {background-color: lightseagreen;}
+    20%  {background-color: blue;}
+    30%  {background-color: purple;}
+    40%  {background-color: yellowgreen;}
+    50%  {background-color: yellow;}
+    60%  {background-color: orange;}
+    70%  {background-color: orangered;}
+    80%  {background-color: red;}
+    90%  {background-color: blueviolet;}
+    100%  {background-color: palevioletred;}
+
+}
+.headings{
+    text-align: left;
+    color: white;
+    font-family: "Comic Sans MS";
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    border-left-style: solid;
+    
+
+}
+.text{
+    text-align: left;
+    color: black;
+    font-size: 22.5px;
+    font-family: "monospace";
+}
+a:visited{
+    color:grey;
+}
+a:link{
+    color:grey;
+    font-size:13px;
+}
+button{
+    border-radius:10px;
+    color: white;
+    background-color:white;
+    padding:5px 140px 5px 140px;
+}
+button:visited{
+    color: white;
+}
+button:hover{
+    animation-name: background-color;
+    animation-duration:1s;
+}
+@keyframes background-color{
+    100%{
+        background-color: lightgrey;
+    }
+}
+#logo{
+    text-align: left;
+    height: 1px;
+}
+#logo-1{
+    margin:0px 400px 0px 400px;
+}
+#logo-2{
+    text-align: left;
+    height: 20px;
+}
